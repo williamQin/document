@@ -1,0 +1,9 @@
+git clone <url> : 拷贝远程仓库到本地
+git branch -a : 查看分支
+git checkout <branch> : 切换分支
+git status : 查看当前代码版本管理状态
+git pull : 更新代码
+git add <file> : 添加本地修改到缓存区
+git commit -m 'message' : 提交本地修改到本地仓库
+git push : 推送本地修改到远端
+git checkout <file> : 还原本地修改

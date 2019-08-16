@@ -1,0 +1,12 @@
+telnet [IP] [PORT]  # 测试IP所在机器的PORT端口是否连通
+ping [IP]  # 测试IP是否连通
+netstat  # 查询端口使用情况
+netstat -anp | grep [PORT]  # 查询PORT端口的使用情况
+
+lsof  # 列出当前系统打开文件的工具.在linux环境下，任何事物都以文件的形式存在，通过文件不仅仅可以访问常规数据，还可以访问网络连接和硬件
+lsof -i : [PORT]  # 查看PORT端口是否被占用
+
+ps -ef | grep [WORD]  # 根据关键字查询进程号
+
+tar -cvf [TARGET] [SOURCE] # 压缩文件(tar -cvf a.tar b)
+tar -xvf [FILE]  # 解压文件(tar -xvf a.tar)
